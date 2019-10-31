@@ -1,12 +1,22 @@
 from customer import Customer
 from atm_impl import *
 
+
+def next_transaction():
+    ans = str(input("Do you want to continue? Y/N "))
+    if ans is 'Y':
+        choices(cust)
+    else:
+        print("Bye,bye baby!")
+
+
 """
 Bank is more of a part where the driver code to the whole atm resides.
 The flow starts off with the:
 1 Customer Creation
 2 Atm transactions the customer wants to conduct
 """
+
 if __name__ == '__main__':
 
     msg = "Initiating Customer Creation"
@@ -19,14 +29,15 @@ if __name__ == '__main__':
     cust = Customer(name)
     print("Customer created is:")
     cust.print_customer_info()
-    transaction = ["Check Balance", "Withdrawals", "Transfer", "Deposit"]
     print("Pretend to swipe your card up here, at the ATM to initiate ATM transaction")
     pin = str(input("\nEnter your 4 digit PIN\t"))
-
+    print(pin)
+    print(cust.pin)
     result = session_auth(pin)
     # pdb.set_trace()
+
     if result is True:
-        choice()
+        choices(cust)
         next_transaction()
     else:
         print("Bad PIN, end of the road for you")
