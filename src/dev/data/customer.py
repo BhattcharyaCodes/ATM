@@ -1,12 +1,16 @@
 import mongoengine
 
+
 class Customer(mongoengine.Document):
-    cust_ids = mongoengine.IntField
-    account_type = mongoengine.StringField
-    account_no = mongoengine.IntField
-    card_no = mongoengine.IntField
-    balance =
-    pin = mongoengine.IntField
+
+    cust_ids = mongoengine.IntField(required=True)
+    cust_fname = mongoengine.StringField(required=True)
+    cust_lname = mongoengine.StringField(required=True)
+    account_type = mongoengine.StringField(required=True)
+    account_no = mongoengine.IntField(required=True)
+    card_no = mongoengine.IntField(required=True)
+    balance = mongoengine.FloatField(default=2000)
+    pin = mongoengine.StringField(required=True, default="1234")
 
     # def __init__(self, cust_name, pin=None):
     #     # print("enter account")
