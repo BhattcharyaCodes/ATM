@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="544874d8-e02a-461b-8310-4c16d8273e0d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/customer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/data/bank.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/data/bank.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/data/customer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/data/customer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/data/mongo_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/data/mongo_setup.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +29,12 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/dev/data" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">

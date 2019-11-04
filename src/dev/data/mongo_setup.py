@@ -1,4 +1,5 @@
 import mongoengine
 
+
 def global_init():
-    mongoengine.register_connection('alias'='core', 'name'='atm')
+    mongoengine.connect(alias='core', name='atm')
