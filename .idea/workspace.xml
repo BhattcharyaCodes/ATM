@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="544874d8-e02a-461b-8310-4c16d8273e0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/data/bank.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/data/customer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/data/mongo_setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/bank.py" beforeDir="false" afterPath="$PROJECT_DIR$/dev/driver_code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/customer.py" beforeDir="false" afterPath="$PROJECT_DIR$/dev/customer.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
