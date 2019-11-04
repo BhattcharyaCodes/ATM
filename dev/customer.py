@@ -21,18 +21,3 @@ class Customer:
     def print_customer_info(self):
         print("Customer Name: {} \nCustomer Id: {} \nCustomer A/c no.: {} \nAccount Balance: {}"
               " \n".format(self.cust_name, self.cust_ids[0], self.account_no, self.balance))
-
-
-if __name__ == '__main__':
-
-    msg = "Initiating Customer Creation"
-    bor = '*'
-    border = bor * len(msg)
-
-    print("{}\n{}\n{}".format(border, msg, border))
-
-    name = str(input("Enter you first and last name separated by a space:"))
-
-    cust = Customer(name)
-    print("Customer created is:")
-    cust.print_customer_info()
